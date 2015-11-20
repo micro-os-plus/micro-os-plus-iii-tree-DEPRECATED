@@ -1,0 +1,12 @@
+[submodule "ilg/stm/stm-xpack"]
+	path = ilg/stm/stm-xpack
+	url = https://github.com/xpacks/stm.git
+[submodule "ilg/toolchains-xpack"]
+	path = ilg/toolchains-xpack
+	url = https://github.com/xpacks/toolchains.git
+[submodule "ilg/arm/arm-cmsis-xpack"]
+	path = ilg/arm/arm-cmsis-xpack
+	url = https://github.com/xpacks/arm-cmsis.git
+[submodule "ilg/stm/stm32f7-cmsis"]
+	path = ilg/stm/stm32f7-cmsis
+	url = https://github.com/xpacks/stm32f7-cmsis.git
