@@ -1,9 +1,6 @@
 [submodule "ilg/stm/stm-xpack"]
 	path = ilg/stm/stm-xpack
 	url = https://github.com/xpacks/stm.git
-[submodule "ilg/toolchains-xpack"]
-	path = ilg/toolchains-xpack
-	url = https://github.com/xpacks/toolchains.git
 [submodule "ilg/arm/arm-cmsis-xpack"]
 	path = ilg/arm/arm-cmsis-xpack
 	url = https://github.com/xpacks/arm-cmsis.git
@@ -13,3 +10,12 @@
 [submodule "ilg/yotta/ilg-cortex-m-gcc"]
 	path = ilg/yotta/ilg-cortex-m-gcc
 	url = https://github.com/xpacks/yotta-cortex-m-gcc.git
+[submodule "ilg/xcdl/toolchains-xpack"]
+	path = ilg/xcdl/toolchains-xpack
+	url = https://github.com/xpacks/toolchains.git
+[submodule "ilg/stm/stm32f4-cmsis-xpack"]
+	path = ilg/stm/stm32f4-cmsis-xpack
+	url = https://github.com/xpacks/stm32f4-cmsis.git
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/xpacks/scripts.git
