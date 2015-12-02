@@ -4,9 +4,6 @@
 [submodule "ilg/arm/arm-cmsis-xpack"]
 	path = ilg/arm/arm-cmsis-xpack
 	url = https://github.com/xpacks/arm-cmsis.git
-[submodule "ilg/stm/stm32f7-cmsis-xpack"]
-	path = ilg/stm/stm32f7-cmsis-xpack
-	url = https://github.com/xpacks/stm32f7-cmsis.git
 [submodule "ilg/yotta/ilg-cortex-m-gcc"]
 	path = ilg/yotta/ilg-cortex-m-gcc
 	url = https://github.com/xpacks/yotta-cortex-m-gcc.git
