@@ -13,6 +13,9 @@
 [submodule "ilg/stm/stm32f4-cmsis-xpack"]
 	path = ilg/stm/stm32f4-cmsis-xpack
 	url = https://github.com/xpacks/stm32f4-cmsis.git
+[submodule "ilg/stm/stm32f7-cmsis-xpack"]
+	path = ilg/stm/stm32f7-cmsis-xpack
+	url = https://github.com/xpacks/stm32f7-cmsis.git
 [submodule "scripts"]
 	path = scripts
 	url = https://github.com/xpacks/scripts.git
