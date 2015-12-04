@@ -1,12 +1,16 @@
 {
 	"$schema": "http://xcdl.github.io/schemas/xrepo-1-1.json",
 	"name": "xPacks",
-	"description": "XCDL packages",
+	"description": "The tree of XCDL packages.",
 	"homepage": "https://github.com/xpacks/",
-	"packages": [
-		"ilg/toolchains-xpack",
+	"folders": [
+		"ilg/xcdl/toolchains-xpack",
+		"ilg/yotta/ilg-cortex-m-gcc",
 		"ilg/arm/arm-cmsis-xpack",
 		"ilg/stm/stm-xpack",
-		"ilg/stm/stm32f7-cmsis-xpack"
+		"ilg/stm/stm32f4-cmsis-xpack",
+		"ilg/stm/stm32f4-hal-xpack",
+		"ilg/stm/stm32f7-cmsis-xpack",
+		"ilg/stm/stm32f7-hal-xpack"
 	]
 }
