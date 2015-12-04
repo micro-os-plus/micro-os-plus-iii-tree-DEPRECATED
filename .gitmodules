@@ -25,3 +25,6 @@
 [submodule "ilg/stm/stm32f4-hal-xpack"]
 	path = ilg/stm/stm32f4-hal-xpack
 	url = https://github.com/xpacks/stm32f4-hal.git
+[submodule "index"]
+	path = index
+	url = https://github.com/xpacks/index.git
