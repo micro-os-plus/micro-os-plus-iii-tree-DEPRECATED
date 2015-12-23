@@ -30,4 +30,4 @@
 	url = https://github.com/xpacks/index.git
 [submodule "ilg/portable/posix-io"]
 	path = ilg/portable/posix-io
-	url = https://github.com/xpacks/posix-io.git
+	url = https://github.com/micro-os-plus/posix-io.git
