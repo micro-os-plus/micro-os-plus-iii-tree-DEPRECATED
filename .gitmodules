@@ -28,3 +28,6 @@
 [submodule "index"]
 	path = index
 	url = https://github.com/xpacks/index.git
+[submodule "ilg/portable/posix-io-xpack"]
+	path = ilg/portable/posix-io-xpack
+	url = https://github.com/micro-os-plus/posix-io.git
