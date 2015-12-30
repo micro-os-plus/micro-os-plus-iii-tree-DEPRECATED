@@ -31,3 +31,30 @@
 [submodule "ilg/portable/posix-io-xpack"]
 	path = ilg/portable/posix-io-xpack
 	url = https://github.com/micro-os-plus/posix-io.git
+[submodule "ilg/portable/posix-drivers-xpack"]
+	path = ilg/portable/posix-drivers-xpack
+	url = https://github.com/micro-os-plus/posix-drivers.git
+[submodule "ilg/portable/chan-fatfs-xpack"]
+	path = ilg/portable/chan-fatfs-xpack
+	url = https://github.com/xpacks/chan-fatfs.git
+[submodule "ilg/portable/lwip-xpack"]
+	path = ilg/portable/lwip-xpack
+	url = https://github.com/xpacks/lwip.git
+[submodule "ilg/portable/diag-trace-xpack"]
+	path = ilg/portable/diag-trace-xpack
+	url = https://github.com/micro-os-plus/diag-trace.git
+[submodule "ilg/arm/arm-semihosting-xpack"]
+	path = ilg/arm/arm-semihosting-xpack
+	url = https://github.com/micro-os-plus/arm-semihosting.git
+[submodule "ilg/arm/cortexm-startup-xpack"]
+	path = ilg/arm/cortexm-startup-xpack
+	url = https://github.com/micro-os-plus/cortexm-startup.git
+[submodule "ilg/portable/newlib-xpack"]
+	path = ilg/portable/newlib-xpack
+	url = https://github.com/micro-os-plus/newlib.git
+[submodule "ilg/synthetic/posix-arch-xpack"]
+	path = ilg/synthetic/posix-arch-xpack
+	url = https://github.com/micro-os-plus/posix-arch.git
+[submodule "ilg/portable/usb-xpack"]
+	path = ilg/portable/usb-xpack
+	url = https://github.com/micro-os-plus/usb.git
