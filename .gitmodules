@@ -58,3 +58,6 @@
 [submodule "ilg/portable/usb-xpack"]
 	path = ilg/portable/usb-xpack
 	url = https://github.com/micro-os-plus/usb.git
+[submodule "ilg/portable/freertos-xpack"]
+	path = ilg/portable/freertos-xpack
+	url = https://github.com/xpacks/freertos.git
