@@ -61,3 +61,6 @@
 [submodule "ilg/portable/freertos-xpack"]
 	path = ilg/portable/freertos-xpack
 	url = https://github.com/xpacks/freertos.git
+[submodule "ilg/arm/cmsis-plus-xpack"]
+	path = ilg/arm/cmsis-plus-xpack
+	url = https://github.com/micro-os-plus/cmsis-plus.git
