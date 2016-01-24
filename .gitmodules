@@ -40,12 +40,6 @@
 [submodule "ilg/portable/lwip-xpack"]
 	path = ilg/portable/lwip-xpack
 	url = https://github.com/xpacks/lwip.git
-[submodule "ilg/portable/diag-trace-xpack"]
-	path = ilg/portable/diag-trace-xpack
-	url = https://github.com/micro-os-plus/diag-trace.git
-[submodule "ilg/arm/arm-semihosting-xpack"]
-	path = ilg/arm/arm-semihosting-xpack
-	url = https://github.com/micro-os-plus/arm-semihosting.git
 [submodule "ilg/arm/cortexm-startup-xpack"]
 	path = ilg/arm/cortexm-startup-xpack
 	url = https://github.com/micro-os-plus/cortexm-startup.git
