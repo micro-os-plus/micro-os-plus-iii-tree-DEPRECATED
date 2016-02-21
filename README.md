@@ -1,18 +1,34 @@
-# µOS++ IIIe repo
+# µOS++ IIIe tree repo
 
 The **µOS++ IIIe** (micro oh ɛs plus plus third edition) project is the 
 third iteration of **µOS++**, an open source, royalty-free, multi-tasking 
 operating system intended for embedded systems, focused on Cortex-M device.
 
-**µOS++** is composed of multiple separate pacakges, each hosted as a 
+This GitHub repository project is basically a tree of references to other 
+projects
+and does not contain any source code; for the actual code please refer to 
+the linked projects.
+
+To achieve packages integration, this repository makes extensive use 
+of `git` submodules.
+
+This project is mainly used as a convenience during development.
+
+## CMSIS++
+
+The core component of **µOS++** is **CMSIS++**, a proposal for the next 
+generation **CMSIS**.
+
+**µOS++** also provides a reference implementation for the CMSIS++ RTOS 
+scheduler. A POSIX synthetic platform implementation is planned, and
+will be provided in the posix-arch xPack. 
+
+## Based on packages
+
+**µOS++** is composed of multiple separate packages, each hosted as a 
 GitHub project. Original packages are hosted in 
 [µOS++](https://github.com/micro-os-plus) and packages based on 
 third party code are hosted in [xPacks](https://github.com/xpacks).
-
-To achieve packages integration, this project makes extensive use 
-of `git` submodules.
-
-It is mainly used as a convenience during development.
 
 ## Folders hierarchy
 
@@ -36,18 +52,16 @@ and packages can have any name and each author is free to use any hierarchy.
 
 ## Status
 
-This project is currently in early development stage.
+This project is currently in development stage.
 
 Files from previous versions are updated, packed as separate packages and 
 linked to this repository.
 
 During this stage the focus is less on contributing original code, and more on 
-defining the various layers and APIs, the initial implementation relying on
+defining the various layers and APIs; the initial implementation will rely on
 existing code, like CMSIS RTOS, FreeRTOS, lwIP, FAT FS, etc.
 
-The central piece is a POSIX IO layer, that brings together, under a 
-standard API, files, sockets, devices, etc.
-
-As for RTOS, currently the preferred API is CMSIS RTOS; it is not perfect, but 
-for the moment it shoud be just fine.
+The core APIs are defined in the CMSIS++ package. In addition to the RTOS 
+and Drivers APIs, another major component is the POSIX IO layer, that brings 
+together, under a standard API, files, sockets, devices, etc.
 
