@@ -1,6 +1,6 @@
 # µOS++ IIIe tree repo
 
-The **µOS++ IIIe** (micro oh ɛs plus plus third edition) project is the 
+The **µOS++ IIIe** _(micro oh ɛs plus plus third edition)_ project is the 
 third iteration of **µOS++**, an open source, royalty-free, multi-tasking 
 operating system intended for embedded systems, focused on Cortex-M device.
 
