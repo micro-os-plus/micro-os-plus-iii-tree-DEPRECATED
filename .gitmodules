@@ -55,3 +55,9 @@
 [submodule "ilg/arm/cmsis-plus-xpack"]
 	path = ilg/arm/cmsis-plus-xpack
 	url = https://github.com/micro-os-plus/cmsis-plus.git
+[submodule "ilg/portable/micro-os-plus-xpack"]
+	path = ilg/portable/micro-os-plus-xpack
+	url = https://github.com/micro-os-plus/micro-os-plus-iii.git
+[submodule "ilg/arm/arm-cmsis-rtos-validator-xpack"]
+	path = ilg/arm/arm-cmsis-rtos-validator-xpack
+	url = https://github.com/xpacks/arm-cmsis-rtos-validator.git
