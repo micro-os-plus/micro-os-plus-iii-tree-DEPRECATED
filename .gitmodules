@@ -61,3 +61,6 @@
 [submodule "ilg/arm/arm-cmsis-rtos-validator-xpack"]
 	path = ilg/arm/arm-cmsis-rtos-validator-xpack
 	url = https://github.com/xpacks/arm-cmsis-rtos-validator.git
+[submodule "ilg/diag/segger-rtt-xpack"]
+	path = ilg/diag/segger-rtt-xpack
+	url = https://github.com/xpacks/segger-rtt.git
